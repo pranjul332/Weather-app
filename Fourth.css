@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Nunito:ital@0;1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+  font-weight: 580; */
+  /* font-style: italic; */
+    
+
+}
+.weather{
+    position: relative;
+}
+ html{
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    
+ } 
+.data{
+    /* margin-top: 10px; */
+    position: relative;
+    padding: 20px;
+    width: 100vh;
+    max-width:400px;
+    height: 80vh;
+    max-height: 350px;
+    /* max height and max width is given due to increase in size after maximizing the window */
+    border: 2px solid white;
+    /* background-color: blue; */
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url("C:\Users\pranjul saxena\Downloads\244075-delhi-weather-today-rain.avif"); */
+    background-size: cover;
+    /* justify-content: center;
+    align-items: center; */
+    
+    
+}
+.in{
+    padding: 5px;
+    height: 10vh;
+    margin-top: 10px;
+    margin-left: 42%;
+    margin-bottom: 5px;
+    
+    
+}
+input{
+    border: none;
+    height: 35px;
+    border:2px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    border-radius : 20px;   
+    padding-left: 30px;
+}
+input[type=text]:focus {
+    border-color: transparent; /* Set border color to transparent on focus */
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+     outline: none; /*Remove the default focus outline */
+}
+.city{
+    position: absolute ;
+    top: 0;    
+}
+.temp{
+    margin: 20px;
+    margin-left:50px;
+    font-size: 80px;
+}
+.weath{
+    text-align: center;
+    font-size: 30px;
+}
+.humid{
+    margin-top: 20px;
+    font-size: 25px ;
+    text-align: center;
+}
+.humid-value {
+    margin-left: 100px; /* Adjust the value as needed to add space between label and value */
+}
+.wind{
+    text-align: center;
+    margin-top: 10px ;
+    margin-left: 40px;
+    font-size: 25px ;
+}
+.wind-value{
+    margin-left: 120px;
+}
+.press{
+    text-align: center;
+    margin-top: 10px ;
+    margin-left: 40px;
+    font-size: 25px ; 
+}
+.press-value{
+    margin-left: 80px;
+}
+
